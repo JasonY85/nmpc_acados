@@ -5,7 +5,7 @@
 
 ```bash
 cd ~/catkin_ws/src  # cd into a catkin workspace folder
-git clone https://github.com/jackal/jackal.git
+https://github.com/JasonY85/jackal.git
 git clone https://github.com/jackal/jackal_simulator.git
 git clone https://github.com/jackal/jackal_desktop.git
 ```
