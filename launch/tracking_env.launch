@@ -1,0 +1,12 @@
+<launch>
+    
+    <!-- Run the odom_publisher node -->
+    <node name="odom_publisher" pkg="nmpc_acados" type="odom_publisher" output="screen"/>
+
+    <!-- Run the trajectory_publisher node -->
+    <node name="trajectory_publisher" pkg="nmpc_acados" type="trajectory_publisher" output="screen"/>
+
+    <!-- Open rviz with a specific configuration file -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find nmpc_acados)/rviz/jackal.rviz" output="screen"/>
+    
+</launch>

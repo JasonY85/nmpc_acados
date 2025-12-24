@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="nmpc_acados" type="nmpc_acados_node" name="nmpc_acados_node" output="screen">
+        <param name="weight_x"  type="double"   value="100.0" />
+        <param name="weight_y"  type="double"   value="100.0" />
+        <param name="weight_q"  type="double"   value="0.5" />
+        <param name="weight_v"  type="double"   value="7.0" />
+        <param name="weight_w"  type="double"   value="4.0" />
+    </node>
+</launch>
